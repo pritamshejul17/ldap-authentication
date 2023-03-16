@@ -10,7 +10,7 @@ public class Controller {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome your are logged in!";
+        return "Welcome you are logged in!";
     }
 
 }
